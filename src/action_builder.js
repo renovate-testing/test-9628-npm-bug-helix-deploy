@@ -905,7 +905,7 @@ module.exports = class ActionBuilder {
   }
 
   async run() {
-    this.log.info(chalk`{grey openwhisk-action-builder v${version}}`);
+    this.log.info(chalk`{grey hedy v${version}}`);
     await this.validate();
     this.log.info(chalk`selected targets: {yellow ${Object.values(this._deployers).map((d) => d.name).join(', ')}}`);
 

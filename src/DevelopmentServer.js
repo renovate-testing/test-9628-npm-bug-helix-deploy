@@ -22,7 +22,7 @@ const ActionBuilder = require('./action_builder.js');
  * ```
  * // test/dev.js
  *
- * const { DevelopmentServer } = require('@adobe/openwhisk-action-builder');
+ * const { DevelopmentServer } = require('@adobe/helix-deploy');
  * const App = require('../src/app.js');
  *
  * async function run() {
