@@ -1,3 +1,10 @@
 {
-  "extends": ["github>adobe/helix-shared"]
+  "extends": ["github>adobe/helix-shared"],
+  "enabledManagers": ["npm"],
+  "packageRules": [
+    {
+      "excludePackageNames": ["@adobe/helix-universal"],
+      "enabled": false
+    }
+  ]
 }
